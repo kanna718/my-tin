@@ -1,0 +1,159 @@
+#head{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.7;
+    color: white;
+}
+/* navbar */
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+/* button */
+.b{
+    margin: 5% 3% 5% 0 ;
+}
+.title-img{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+
+/*  features */
+#part2{
+    padding:5% auto;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 4%;
+}
+.features{
+    text-align: center;
+    padding: 5%;
+}
+h2{
+    font-family:'montserrat';
+}
+h3{
+    font-family:'montserrat';
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testimonial */
+
+#testimonial{
+    background-color: #ef8172;
+    text-align: center;
+}
+.name{
+    font-family: 'montserrat';
+    font-size: 2rem;
+    color: white;
+    line-height: 1.8;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+em{
+    color: #fff;
+    size: 1.5rem;
+    font-weight: bold;
+}
+.carousel-item{
+    padding:8% 15%;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.space{
+    margin: 0 10px 50px;
+    width: 15%;
+}
+
+
+/* pricing */
+
+#setup{
+    padding: 100px;
+    text-align: center;
+}
+.setup-style{
+    padding: 3% 2%;
+}
+
+/* last */
+#last{
+    text-align: center;
+    background-color:#ff4c68;
+    padding: 4% 0;
+}
+#large{
+    font-size: 3rem;
+    color: #fff;
+}
+.last-b{
+    margin: 6% 1% 0;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 1.05rem;
+}
+.dark{
+    color: black;
+}
+.insta{
+    margin: 0 20px 40px;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media(max-width:1028px){
+    #head{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+        margin-top: 10%;
+    }
+    #large{
+        font-size: 2rem;
+    }
+}
